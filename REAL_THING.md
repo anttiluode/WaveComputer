@@ -60,6 +60,14 @@ The same experiment, in the wave machine:
 
 It would use every part of this machine: residue, held prediction and content. To those it adds a slow integrator and a real multiplying gate. It is a prediction the machine can pass or fail the same way the mouse cortex was tested.
 
+**Done, 17 November 2026:** [ApicalRuleReversalMachine](https://github.com/anttiluode/ApicalRuleReversalMachine). All five pre-registered rules held in 32 bodies:
+- learning sorted fixed and reversing cues into basal and apical-gated weights by itself (31/32);
+- with weights frozen, the apical state followed uncued reversals (R accuracy 0.86, ideal 0.92);
+- it carried the inference to a cue not yet seen since the switch (0.92, against 0.08 for a per-cue plastic learner);
+- silencing the apical compartment left the fixed cue intact (1.00) and dropped the reversing cues to chance (0.49).
+
+The scalar no-wave copy of the same algorithm was more accurate, in 32 of 32 bodies: the computation is the multiplication, not the waves.
+
 ## Sources
 
 - T. Marvan and W. A. Phillips, "Cellular mechanisms of cooperative context-sensitive predictive inference", *Current Research in Neurobiology* 6 (2024) 100129.
