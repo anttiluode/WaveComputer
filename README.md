@@ -4,7 +4,7 @@
 
 Antti Luode's idea and direction · design, code and write-up by Claude Opus 5.5 · 17 November 2026.
 
-[Protocol, committed before the batch](PROTOCOL.md) · [receipt](experiments/results.json) · [summary](experiments/summary.json) · [machine](wavecomputer/machine.py) · [experiment](experiments/onebody.py) · [analysis](experiments/analyze.py) · [development runs](experiments/dev_results.json)
+[Protocol, committed before the batch](PROTOCOL.md) · [against the real thing](REAL_THING.md) · [receipt](experiments/results.json) · [summary](experiments/summary.json) · [machine](wavecomputer/machine.py) · [experiment](experiments/onebody.py) · [analysis](experiments/analyze.py) · [development runs](experiments/dev_results.json)
 
 ![One body](experiments/onebody.png)
 
@@ -139,6 +139,14 @@ Recorded in the protocol before the run:
 1. **Content and residue are two jobs of one prediction, not two kinds of unit.** The prediction a unit writes damps the world at its tips (learning signal, surprise) and gates the size of what it sends (content). With both jobs in one unit, the trade-off of QualeX section 3 goes away in this body.
 2. **The only place a size is needed is imagination.** When something is sensed, linear residual learning already does precision weighting, because with ±1 events Bayes is linear. When nothing is sensed, the unit must say how sure it is. Its own apical fade is enough, and it makes imagination as sure as its own links, within 3%.
 3. **Imagination can be on time and uncertain at once.** Yesterday these pulled against each other. Regeneration made the imagined event on time but certain; the soft imagined wave was uncertain but late. Separating the clock (regenerated) from the size (apical) gives both.
+
+## Against the real thing
+
+[**REAL_THING.md**](REAL_THING.md) compares this machine, part by part, with four papers on dendrites, the axon initial segment and cortical time windows, and with Astra's two-step chain [WaveComputerAstra](https://github.com/anttiluode/WaveComputerAstra). It is a reading, not a result. In short:
+- **Matches:** sending content with a context-set size (Marvan & Phillips); fixed absolute-time windows (Norman-Haignere et al.); thresholds calibrated to each unit's own input, a hand-made version of what the axon initial segment does (Fréal & Hoogenraad).
+- **Half right:** our imagination is apical input driving the output, which the papers place in dreaming and imagination, not ordinary perception.
+- **Mismatch:** our units fire later on bigger input; real neurons fire sooner.
+- **The main gap:** in the cortex, rule and stimulus **multiply** in the apical dendrite (Zhang et al.), and that is the c₃·A·b term our symmetric worlds never needed. This machine only adds. The page ends on the test that follows: a rule world, with a slow apical state built from accumulated surprise multiplying the content, and a cut of the apical compartment that should break only the reversing trials.
 
 ## Ledger
 
