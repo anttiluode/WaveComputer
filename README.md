@@ -24,15 +24,16 @@ QualeX section 3 proposed one unit that would hold both forms. This repository b
 
 ```mermaid
 flowchart LR
-    W["world tank<br/>A · B · C pulses"] -->|A receptor| AB["AB units<br/>hear A"]
-    W -->|A receptor| AC["AC units<br/>hear A"]
+    W["world tank: A, B, C pulses"] -->|"A receptor"| AB["AB units: hear A"]
+    W -->|"A receptor"| AC["AC units: hear A"]
     W -->|"B receptor (basal)"| BU["two-form B units"]
-    AB -->|"write the expected B"| P[("prediction field<br/>one shared wave")]
+    AB -->|"write the expected B"| P[("prediction field: one shared wave")]
     AC -->|"write at C's place"| P
     BU -->|"content, sized by certainty"| P
-    P -->|"apical: own expectation of B"| BU
-    P -. "prediction − world at every branch tip<br/>(what learning hears)" .-> AB & AC & BU
+    P -.->|"apical: own expectation of B"| BU
 ```
+
+Every branch tip also hears prediction − world at its own place; that residue is what all learning uses.
 
 It is the A → B → C body of QualiaClaude relay/, with the same geometry, the same 72 calibrated fade-triggered units and the same damping-branch rule. The parts that survived the Qualia day are all switched on:
 
